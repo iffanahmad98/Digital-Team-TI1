@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_satu"
+        android:icon="@drawable/ic_action_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_dua"
+        android:icon="@drawable/ic_action_ticket"
+        android:title="Tiket" />
+
+    <item
+        android:id="@+id/navigation_tiga"
+        android:icon="@drawable/ic_action_profil"
+        android:title="Profil" />
+</menu>
