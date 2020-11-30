@@ -14,5 +14,10 @@ class LoginActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
         }
+
+        daftar.setOnClickListener{
+            val intent = Intent(this, RegisActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

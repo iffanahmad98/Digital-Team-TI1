@@ -1,5 +1,7 @@
 package com.syahrulsamudra_18102142.mainactivity.adapter
 
+import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,10 +11,11 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.syahrulsamudra_18102142.mainactivity.ArtikelActivity
 import com.syahrulsamudra_18102142.mainactivity.MyData
 import com.syahrulsamudra_18102142.mainactivity.R
 
-class CardViewMyDataAdapter(private val listMyDatas: ArrayList<MyData>) :
+class CardViewMyDataAdapter(private val listMyDatas: ArrayList<MyData>, val context: Context) :
     RecyclerView.Adapter<CardViewMyDataAdapter.CardViewViewHolder>() {
 
     inner class CardViewViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -39,7 +42,9 @@ class CardViewMyDataAdapter(private val listMyDatas: ArrayList<MyData>) :
         holder.tvName.text = myData.name
         holder.tvDetail.text = myData.description
 
-        holder.itemView.setOnClickListener { Toast.makeText(holder.itemView.context, "Kamu memilih " +
-                listMyDatas[holder.adapterPosition].name, Toast.LENGTH_SHORT).show() }
+        holder.itemView.setOnClickListener {
+            val moveWithObjectIntent = Intent(context, ArtikelActivity::class.java)
+            moveWithObjectIntent.putExtra(ArtikelActivity.EXTRA_MYDATA, myData)
+            context.startActivity(moveWithObjectIntent) }
     }
 }
