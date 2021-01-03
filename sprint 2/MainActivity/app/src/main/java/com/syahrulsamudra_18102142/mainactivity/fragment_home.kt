@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.syahrulsamudra_18102142.mainactivity.adapter.CardViewMyDataAdapter
 import kotlinx.android.synthetic.main.fragment_home.*
@@ -44,7 +45,7 @@ class fragment_home() : Fragment() {
     }
 
     private fun showRecyclerCardView() {
-        rv_mydata.layoutManager = LinearLayoutManager(requireContext())
+        rv_mydata. layoutManager = GridLayoutManager(requireContext(),2)
         val cardViewMyDataAdapter = CardViewMyDataAdapter (list, requireContext())
         rv_mydata.adapter = cardViewMyDataAdapter
     }
