@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77272771-8554-43d8-8b2f-802698752e59" name="Default Changelist" comment="" />
+    <list default="true" id="77272771-8554-43d8-8b2f-802698752e59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sprint 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sprint 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/java/com/syahrulsamudra_18102142/mainactivity/fragment_home.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/java/com/syahrulsamudra_18102142/mainactivity/fragment_home.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/item_cardview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/item_cardview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ky4yv4Z1LQlCv1QChnyAG6KC88" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MainActivity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />

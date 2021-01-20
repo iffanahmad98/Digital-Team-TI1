@@ -5,8 +5,13 @@
     <string-array name="data_name">
         <item>Lebih Kenal Wisata Baturadden</item>
         <item>Melihat Air Terjun Bertingkat</item>
+        <item>Akhir Pekan Di Wisata Pagubugan</item>
+        <item>Sunset di Bukit Sianco</item>
+
+
     </string-array>
     <string-array name="data_description">
+
 <item>Berlokasi di sebelah selatan lereng Gunung Slamet membuat kawasan Baturraden memiliki udara yang sejuk dan sangat dingin, apalagi saat malam tiba. Panorama pegunungan yang indah dan menyegarkan mata menjadi salah satu daya tarik obyek wisata ini. Tidak hanya itu, Baturraden juga memiliki legenda yang sudah terkenal di masyarakat Indonesia yaitu cerita tentang Raden Kamandaka atau Lutung Kasarung.
 
 Memasuki gerbang tempat wisata, pengunjung langsung bisa menjelajahi Taman Kaloka Widya Mandala, sebuah taman wisata edukasi yang diresmikan bupati Banyumas pada tanggal 17 Mei 1995. Di sini, terdapat koleksi sapi berkaki lima, kambing berkaki tiga, gajah, beruk, ular sanca, burung kasuari, landak, iguana, cendrawasih, elang bondol, dan jenis hewan lainnya. Ada juga Museum Satwa Langka yang berisi harimau sumatra, beruang madu, dan macan dahan.
@@ -14,6 +19,7 @@ Memasuki gerbang tempat wisata, pengunjung langsung bisa menjelajahi Taman Kalok
 Bagi pencinta wisata alam, tersedia bumi perkemahan atau mendaki ke puncak gunung Slamet yang akan memberikan tantangan tersendiri. Lelah beraktivitas, pengunjung bisa berendam di sumber air panas Pancuran Telu dan Pancuran Pitu, sekadar merilekskan otot-otot yang tegang akibat kelelahan.
 
 Baturraden berjarak sekitar 15 kilometer di sebelah utara Kota Purwokerto, yang bisa dicapai dalam waktu sekitar 15 menit dengan kendaraan karena lalu lintasnya memang tidak terlalu ramai. Bisa juga menumpang bus antar provinsi atau kereta api yang melewati Kota Purwokerto. Atau kalau mau cara yang lebih praktis, pengunjung bisa menggunakan taksi. Kondisi jalan yang menanjak dengan kemiringin 30 derajat, membuat pengendara harus lebih berhati-hati saat menyetir.</item>
+
         <item>Curug yang satu ini memiliki nama yang unik yakni Curug 7 Bidadari. Nama ini tidak sembarang diberikan kepada curug yang terletak di Desa Keseneng, Sumowono, Semarang, Jawa Tengah. Area di sekitar destinasi wisata yang satu ini memang beda dari air terjun pada umumnya karena di sini terdapat tujuh air terjun dengan ukuran yang berbeda.
 
 Untuk sampai menuju air terjun ini, pengunjung harus melalui jalan berliku melalui kawasan perbukitan dan di kelilingi hutan. Lokasinya yang berada di kaki Gunung Ungaran menjadikan perjalanan menuju air terjun ini membutuhkan sedikit perjuangan menaklukan medan yang berat. Pemandangan hijaunya pepohonan serta sejuknya udara menjadi teman setia yang menemani perjalanan untuk sampai ke Curug Bidadari ini.
@@ -23,10 +29,25 @@ Begitu menginjakan kaki di Curug 7 Bidadari, pengunjung disajikan pemandangan ai
 Curug ini dipercaya masyarakat sejak jaman nenek moyang berada di Komplek Kedung Wali. Konon, di curug ini terdapat kedung atau cekungan yang memiliki diameter sekitar 70 cm. Menariknya cekungan yang memiliki bentuk bulat ini terdapat sumber air yang tidak pernah surut sepanjang tahun. Masyarakat setempat meyakini dan percaya air dalam cekungan ini memiliki khasiat salah satunya dapat membuat awet muda.
 
 Curug 7 Bidadari pertama kali ditemukan dan diperkenalkan sebagai objek wisata pada Febuari 2010. Perlahan-lahan destinasi wisata ini dikembangkan secara swadaya masyarakat serta dikelola oleh masyarakat sadar wisata di Dusun Keseneng, Kabupaten Semarang, Jawa Tengah. Saat ini Curug 7 Bidadari telah dilengkapi fasilitas pendukung untuk pengunjung yang ingin lebih lama berada di curug ini seperti salah satunya penginapan dengan memadai.</item>
+    <item>
+        Berada di lereng Gunung Slamet, wisata Pagubugan akan membawa kamu merasakan betapa tenang dan nyamannya berada di tengah persawahan dan bermain air di sungai. Eduwisata yang berada di Desa Melung ini memiliki berbagai spot wisata menarik yang akan memanjakan kamu. Mulai dari trek jogging, outbound, camping ground, sawah pelangi, taman kelinci, berbagai spot foto keren dan juga Grujugan Bengkok.
+        Di Grujugan Bengkok ini kamu bisa mandi sepuasnya dan airnya sangat jernih, lho! Selain itu lintasan grujugan ini juga panjang, melewati persawahan dan tidak dalam, sehingga aman buat si kecil.
+        Selain itu ada juga wisata bercocok tanam bagi anak paud, TK maupun SD  yang berkunjung. Dan yang terbaru ada kolam renang di tengah persawahan yang aman untuk anak-anak.
+    </item>
+
+        <item>
+            Kalau kamu termasuk orang dengan prinsip “apapun akan kutempuh demi sunset yang indah”, Bukit Sianco tidak boleh dilewatkan.
+        Untuk sampai di sini, memang butuh perjuangan. Jalan menuju puncak bukit yang belum mulus, maka pastikan kendaraan kamu dalam kondisi yang prima ya. Selanjutnya pengunjung bisa melanjutkan dengan treking hingga sampai di puncak.
+        Tapi tenang, perjuangan panjang kamu akan terbayar kok sesampainya di puncak bukit. Dari sini, kamu bisa memandangi lansekap kota yang indah bahkan laut pun bisa terlihat!
+        Saat senja menjelang, langit berubah menjadi lebih cantik. Ditemani secangkir kopi dan sepiring gorengan atau semangkuk mie panas, pasti semakin sempurna deh perjalanan kamu kali ini.
+        Jangan lupa untuk mengabadikan momen indah selama ada di sini ya! Pastinya teman-teman kamu langsung ngiri deh kalau  liat foto hits kamu di Bukit Sianco ini.
+    </item>
     </string-array>
     <string-array name="data_photo">
         <item>https://www.indonesiakaya.com/uploads/_images_gallery/Jawa_Tengah_-_Air_Terjun_Baturraden_-_IE.jpg</item>
         <item>https://www.indonesiakaya.com/uploads/_images_gallery/2__Area_di_sekitar_destinasi_wisata_yang_satu_ini_memang_beda_dari_air_terjun_pada_umumnya.jpg</item>
+        <item>https://explorewisata.com/wp-content/uploads/2020/02/wisata-pagubugan-melung-banyumas.jpg</item>
+        <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2020/03/13-1-Bukit-Sianco-by-dwiecahyo-740x555.jpg</item>
     </string-array>
 
     <string name="title_activity_artikel">ScrollingActivity</string>
@@ -122,8 +143,12 @@ Curug 7 Bidadari pertama kali ditemukan dan diperkenalkan sebagai objek wisata p
     <string-array name="data_lat">
         <item>-7.313286</item>
         <item>-7.203104</item>
+        <item>-7.313286</item>
+        <item>-7.203104</item>
     </string-array>
     <string-array name="data_lang">
+        <item>109.229019</item>
+        <item>110.289431</item>
         <item>109.229019</item>
         <item>110.289431</item>
     </string-array>
