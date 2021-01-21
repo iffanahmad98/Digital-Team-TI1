@@ -6,6 +6,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import kotlinx.android.synthetic.main.activity_login.*
+import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_profil.*
 
 // TODO: Rename parameter arguments, choose names that match
@@ -25,6 +27,17 @@ class fragment_profil : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_profil, container, false)
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        btn_lgout.setOnClickListener{
+            activity?.let{
+                val intent = Intent (it, LoginActivity::class.java)
+                it.startActivity(intent)
+            }
+        }
+    }
+
 
     companion object {
         fun newInstance(): fragment_profil{
