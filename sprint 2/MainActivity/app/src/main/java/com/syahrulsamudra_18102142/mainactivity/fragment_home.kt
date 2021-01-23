@@ -1,13 +1,19 @@
 package com.syahrulsamudra_18102142.mainactivity
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil.setContentView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import com.syahrulsamudra_18102142.mainactivity.adapter.CardViewMyDataAdapter
+import com.syahrulsamudra_18102142.mainactivity.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.fragment_home.*
 
 // TODO: Rename parameter arguments, choose names that match
@@ -21,7 +27,8 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class fragment_home() : Fragment() {
-
+    private lateinit var auth: FirebaseAuth
+    private lateinit var binding: ActivityMainBinding
     private val list = ArrayList<MyData>()
 
     fun getListMyDatas(): ArrayList<MyData> {
@@ -61,6 +68,30 @@ class fragment_home() : Fragment() {
         rv_mydata.setHasFixedSize(true)
         list.addAll(getListMyDatas())
         showRecyclerCardView()
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        auth = Firebase.auth
+        val currentUser = auth.currentUser
+        if (currentUser == null) {
+            activity?.let{
+                val intent = Intent (it, LoginActivity::class.java)
+                it.startActivity(intent)
+            }
+        }
+    }
+
+
+    public override fun onStart() {
+        super.onStart()
+        val currentUser = auth.currentUser
+        if (currentUser == null) {
+            activity?.let{
+                val intent = Intent (it, LoginActivity::class.java)
+                it.startActivity(intent)
+            }
+        }
+
+
     }
 
     companion object {

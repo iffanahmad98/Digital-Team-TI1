@@ -5,12 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77272771-8554-43d8-8b2f-802698752e59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sprint 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sprint 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/.idea/dictionaries/adity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/.idea/dictionaries/adity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/java/com/syahrulsamudra_18102142/mainactivity/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/java/com/syahrulsamudra_18102142/mainactivity/LoginActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/java/com/syahrulsamudra_18102142/mainactivity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/java/com/syahrulsamudra_18102142/mainactivity/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/java/com/syahrulsamudra_18102142/mainactivity/RegisActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/java/com/syahrulsamudra_18102142/mainactivity/RegisActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/java/com/syahrulsamudra_18102142/mainactivity/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/java/com/syahrulsamudra_18102142/mainactivity/SplashActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/java/com/syahrulsamudra_18102142/mainactivity/fragment_home.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/java/com/syahrulsamudra_18102142/mainactivity/fragment_home.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/item_cardview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/item_cardview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/java/com/syahrulsamudra_18102142/mainactivity/fragment_profil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/java/com/syahrulsamudra_18102142/mainactivity/fragment_profil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/res/drawable/ic_baseline_location_on_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/res/drawable/ic_baseline_location_on_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/res/drawable/ic_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/res/drawable/ic_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/res/drawable/ic_vector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/res/drawable/ic_vector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/activity_regis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/activity_regis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/fragment_profil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/res/layout/fragment_profil.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainActivity/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainActivity/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainActivity/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MainActivity/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
