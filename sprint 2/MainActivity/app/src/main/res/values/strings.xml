@@ -29,7 +29,7 @@ Begitu menginjakan kaki di Curug 7 Bidadari, pengunjung disajikan pemandangan ai
 Curug ini dipercaya masyarakat sejak jaman nenek moyang berada di Komplek Kedung Wali. Konon, di curug ini terdapat kedung atau cekungan yang memiliki diameter sekitar 70 cm. Menariknya cekungan yang memiliki bentuk bulat ini terdapat sumber air yang tidak pernah surut sepanjang tahun. Masyarakat setempat meyakini dan percaya air dalam cekungan ini memiliki khasiat salah satunya dapat membuat awet muda.
 
 Curug 7 Bidadari pertama kali ditemukan dan diperkenalkan sebagai objek wisata pada Febuari 2010. Perlahan-lahan destinasi wisata ini dikembangkan secara swadaya masyarakat serta dikelola oleh masyarakat sadar wisata di Dusun Keseneng, Kabupaten Semarang, Jawa Tengah. Saat ini Curug 7 Bidadari telah dilengkapi fasilitas pendukung untuk pengunjung yang ingin lebih lama berada di curug ini seperti salah satunya penginapan dengan memadai.</item>
-    <item>
+        <item>
         Berada di lereng Gunung Slamet, wisata Pagubugan akan membawa kamu merasakan betapa tenang dan nyamannya berada di tengah persawahan dan bermain air di sungai. Eduwisata yang berada di Desa Melung ini memiliki berbagai spot wisata menarik yang akan memanjakan kamu. Mulai dari trek jogging, outbound, camping ground, sawah pelangi, taman kelinci, berbagai spot foto keren dan juga Grujugan Bengkok.
         Di Grujugan Bengkok ini kamu bisa mandi sepuasnya dan airnya sangat jernih, lho! Selain itu lintasan grujugan ini juga panjang, melewati persawahan dan tidak dalam, sehingga aman buat si kecil.
         Selain itu ada juga wisata bercocok tanam bagi anak paud, TK maupun SD  yang berkunjung. Dan yang terbaru ada kolam renang di tengah persawahan yang aman untuk anak-anak.
@@ -154,5 +154,20 @@ Curug 7 Bidadari pertama kali ditemukan dan diperkenalkan sebagai objek wisata p
     </string-array>
     <string name="action_settings">Settings</string>
     <string name="title_activity_maps">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="setting_page">Setting</string>
+    <string name="check_sms_permission">Izinkan Menerima Pesaan</string>
+    <string name="coming_from">Dari</string>
+    <string name="text_message">Pesan</string>
+    <string name="close">Tutup</string>
+    <string name="incoming_message">SMS Masuk</string>
+    <string name="jumlah">Jumlah Tiket</string>
+    <string name="ovo">OVO</string>
+    <string name="dana">DANA</string>
+    <string name="link">LINKAJA</string>
+    <string name="bangking">MOBILE BANKING</string>
 
 </resources>

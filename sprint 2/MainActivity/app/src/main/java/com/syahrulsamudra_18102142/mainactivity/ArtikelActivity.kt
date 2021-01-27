@@ -21,6 +21,7 @@ class ArtikelActivity : AppCompatActivity() {
         intent.getParcelableExtra<T>(key)
     }
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_artikel)
         setSupportActionBar(findViewById(R.id.toolbar))
@@ -29,6 +30,11 @@ class ArtikelActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         tv_detail_description.text = myData?.description.toString()
 
+        pesan_tiket.setOnClickListener {
+            val intent = Intent(this, BookingTiket::class.java)
+            startActivity(intent)
+        }
+
         Glide.with(this)
             .load(myData?.photo.toString())
             .apply(RequestOptions().override(700, 700))
@@ -36,8 +42,9 @@ class ArtikelActivity : AppCompatActivity() {
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { _ ->
             val moveWithObjectIntent = Intent(this, MapsActivity::class.java)
             moveWithObjectIntent.putExtra(MapsActivity.EXTRA_MYDATA, myData)
-            startActivity(moveWithObjectIntent)
         }
+
+
     }
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()

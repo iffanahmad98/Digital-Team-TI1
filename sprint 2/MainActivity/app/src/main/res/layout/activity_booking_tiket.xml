@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingTiket">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/book_tiket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="PEMBAYARAN"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih Tanggal :"
+            android:paddingTop="15dp"
+            android:paddingStart="25dp"
+            />
+        <DatePicker
+            android:id="@+id/date_Picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:datePickerMode = "spinner"
+            android:calendarViewShown="false"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="25dp"
+            android:text="Jumlah tiket :"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:outlineAmbientShadowColor="@color/black"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="25dp"
+            android:text="Metode Bayar :"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:id="@+id/rb_ovo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ovo" />
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:id="@+id/rb_dana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dana" />
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:id="@+id/rb_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/link" />
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:id="@+id/rb_banking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/bangking" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnBooking"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Booking"
+            app:cornerRadius="100dp"
+            android:layout_gravity="center"
+            android:background="@color/main"
+            android:textColor="@color/bg"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

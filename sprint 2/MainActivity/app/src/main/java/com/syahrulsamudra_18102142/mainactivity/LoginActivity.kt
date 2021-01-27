@@ -79,14 +79,4 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         }
         return valid
     }
-
-    public override fun onStart() {
-        super.onStart()
-        val currentUser = auth.currentUser
-        if (currentUser != null) {
-            val intent = Intent(this@LoginActivity, MainActivity::class.java)
-            startActivityForResult(intent, 1)
-            finish()
-        }
-    }
 }

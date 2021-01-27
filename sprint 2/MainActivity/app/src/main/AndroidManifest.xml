@@ -8,6 +8,8 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
 
     <application
         android:allowBackup="true"
@@ -16,14 +18,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity"
+        <activity android:name=".BookingTiket"></activity>
+        <activity android:name=".PesanActivity" />
+        <activity
+            android:name=".BC.SmsReceiverActivity"
+            android:theme="@style/SmsReceiverTheme" />
+
+        <receiver
+            android:name=".BC.SmsReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".BC.MainActivitysms" />
+        <activity android:name=".SettingPreferenceActivity" />
+        <activity
+            android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity android:name=".RegisActivity" />
         <!--
@@ -45,9 +64,7 @@
             android:name=".ArtikelActivity"
             android:label="@string/title_activity_artikel"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".LoginActivity">
-
-        </activity>
+        <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
     </application>
 
