@@ -1,0 +1,40 @@
+package com.syahrulsamudra_18102142.mainactivity.BC
+
+import android.Manifest
+import android.content.pm.PackageManager
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.Toast
+import androidx.core.app.ActivityCompat
+import com.syahrulsamudra_18102142.mainactivity.R
+import kotlinx.android.synthetic.main.activity_main_activitysms.*
+
+class MainActivitysms : AppCompatActivity() {
+    companion object {
+        private const val SMS_REQUEST_CODE = 101
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main_activitysms)
+        btn_permission.setOnClickListener{
+            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.RECEIVE_SMS) !=
+                PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.RECEIVE_SMS),
+                    SMS_REQUEST_CODE)
+            }
+        }
+    }
+
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults:
+    IntArray) {
+        if (requestCode == SMS_REQUEST_CODE) {
+            when {
+                grantResults[0] == PackageManager.PERMISSION_GRANTED -> Toast.makeText(this, "Sms receiver permission diterima", Toast.LENGTH_SHORT).show()
+                    else -> Toast.makeText(this, "Sms receiver permission ditolak", Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+
+
+}

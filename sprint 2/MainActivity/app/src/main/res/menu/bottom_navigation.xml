@@ -14,4 +14,9 @@
         android:id="@+id/navigation_tiga"
         android:icon="@drawable/ic_action_profil"
         android:title="Profil" />
+
+    <item
+        android:id="@+id/navigation_empat"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Setting" />
 </menu>

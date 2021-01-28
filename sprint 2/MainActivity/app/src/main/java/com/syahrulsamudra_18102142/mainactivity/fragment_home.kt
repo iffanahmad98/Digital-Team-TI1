@@ -80,7 +80,6 @@ class fragment_home() : Fragment() {
         }
     }
 
-
     public override fun onStart() {
         super.onStart()
         val currentUser = auth.currentUser

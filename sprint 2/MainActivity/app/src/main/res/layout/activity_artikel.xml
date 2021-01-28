@@ -52,4 +52,15 @@
         app:layout_anchorGravity="bottom|end"
         app:srcCompat="@drawable/ic_baseline_location_on_24" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+        android:id="@+id/pesan_tiket"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        app:layout_anchor="@+id/app_bar"
+        app:layout_anchorGravity="bottom"
+        app:srcCompat="@drawable/ic_action_pesan" />
+
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

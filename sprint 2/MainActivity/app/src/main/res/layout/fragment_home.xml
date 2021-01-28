@@ -10,35 +10,18 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <RelativeLayout
-        android:id="@+id/search"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:background="@color/edittext"
-        ads:layout_constraintBottom_toTopOf="@+id/card_view"
-        tools:ignore="MissingConstraints">
-
-        <SearchView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:queryHint="Cari Wisata Disini!">
-
-        </SearchView>
-    </RelativeLayout>
 
     <androidx.cardview.widget.CardView
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:id="@+id/card_view"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         ads:cardBackgroundColor="@color/bg"
         ads:cardCornerRadius="10sp"
         ads:layout_constraintBottom_toTopOf="@id/rv_mydata"
+        ads:layout_constraintHorizontal_bias="0.0"
         ads:layout_constraintLeft_toLeftOf="parent"
         ads:layout_constraintRight_toRightOf="parent"
         ads:layout_constraintTop_toTopOf="parent"
@@ -72,30 +55,32 @@
                 android:textColorHighlight="#009688"
                 android:textColorLink="#FFFFFF"
                 android:textSize="48sp" />
+
         </LinearLayout>
+
     </androidx.cardview.widget.CardView>
 
     <TextView
+        android:layout_marginStart="20dp"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:layout_marginBottom="40dp"
-        android:layout_marginStart="30dp"
         android:text="Artikel For You"
-        android:textSize="18dp"
+        android:textSize="18sp"
         ads:layout_constraintBottom_toTopOf="@+id/rv_mydata"
         ads:layout_constraintTop_toBottomOf="@+id/card_view"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="20dp" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="15dp"
         android:id="@+id/rv_mydata"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="10dp"
-        ads:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        ads:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
