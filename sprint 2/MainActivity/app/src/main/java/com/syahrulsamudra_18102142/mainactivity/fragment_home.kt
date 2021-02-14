@@ -37,6 +37,7 @@ class fragment_home() : Fragment() {
         val dataPhoto = resources.getStringArray(R.array.data_photo)
         val dataLat = resources.getStringArray(R.array.data_lat)
         val dataLang = resources.getStringArray(R.array.data_lang)
+        val prices = resources.getStringArray(R.array.data_price)
         val listMyData = ArrayList<MyData>()
         for (position in dataName.indices) {
             val myData = MyData(
@@ -44,7 +45,8 @@ class fragment_home() : Fragment() {
                 dataDescription[position],
                 dataPhoto[position],
                 dataLat[position].toDouble(),
-                dataLang[position].toDouble()
+                dataLang[position].toDouble(),
+                Integer.parseInt(prices[position])
             )
             listMyData.add(myData)
         }
@@ -52,13 +54,15 @@ class fragment_home() : Fragment() {
     }
 
     private fun showRecyclerCardView() {
-        rv_mydata. layoutManager = GridLayoutManager(requireContext(),2)
-        val cardViewMyDataAdapter = CardViewMyDataAdapter (list, requireContext())
+        rv_mydata.layoutManager = GridLayoutManager(requireContext(), 2)
+        val cardViewMyDataAdapter = CardViewMyDataAdapter(list, requireContext())
         rv_mydata.adapter = cardViewMyDataAdapter
     }
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
@@ -73,8 +77,8 @@ class fragment_home() : Fragment() {
         auth = Firebase.auth
         val currentUser = auth.currentUser
         if (currentUser == null) {
-            activity?.let{
-                val intent = Intent (it, LoginActivity::class.java)
+            activity?.let {
+                val intent = Intent(it, LoginActivity::class.java)
                 it.startActivity(intent)
             }
         }
@@ -84,8 +88,8 @@ class fragment_home() : Fragment() {
         super.onStart()
         val currentUser = auth.currentUser
         if (currentUser == null) {
-            activity?.let{
-                val intent = Intent (it, LoginActivity::class.java)
+            activity?.let {
+                val intent = Intent(it, LoginActivity::class.java)
                 it.startActivity(intent)
             }
         }
@@ -94,7 +98,7 @@ class fragment_home() : Fragment() {
     }
 
     companion object {
-        fun newInstance(): fragment_home{
+        fun newInstance(): fragment_home {
             val fragment = fragment_home()
             val args = Bundle()
             fragment.arguments = args
