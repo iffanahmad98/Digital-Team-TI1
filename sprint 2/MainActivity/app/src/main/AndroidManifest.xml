@@ -18,7 +18,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BookingTiket"></activity>
+        <activity android:name=".TicketHistory"></activity>
+        <activity android:name=".BookingTiket" />
         <activity android:name=".PesanActivity" />
         <activity
             android:name=".BC.SmsReceiverActivity"

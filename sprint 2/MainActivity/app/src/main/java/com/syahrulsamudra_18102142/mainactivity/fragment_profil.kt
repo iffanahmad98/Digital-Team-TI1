@@ -50,6 +50,13 @@ class fragment_profil : Fragment() {
                 it.startActivity(intent)
             }
         }
+
+        crd_his.setOnClickListener{
+            activity?.let {
+                val intent = Intent(it, TicketHistory::class.java)
+                it.startActivity(intent)
+            }
+        }
     }
 
 

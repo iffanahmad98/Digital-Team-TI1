@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.Window
 import android.view.WindowManager
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,9 +18,14 @@ class SplashActivity : AppCompatActivity() {
 
         Handler().postDelayed({
             //start main activity
-            startActivity(Intent(this@SplashActivity, LoginActivity::class.java))
+            if(Firebase.auth.currentUser == null) {
+                startActivity(Intent(this@SplashActivity, LoginActivity::class.java))
+                finishAffinity()
+            } else {
+                startActivity(Intent(this@SplashActivity, MainActivity::class.java))
+                finishAffinity()
+            }
             //finish this activity
-            finish()
         },2500)
     }
 }

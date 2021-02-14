@@ -5,11 +5,12 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class MyData(
-    var name: String,
-    var description: String,
-    var photo: String,
-    val lat: Double,
-    val lang: Double
+    var name: String = "",
+    var description: String = "",
+    var photo: String = "",
+    val lat: Double = 0.toDouble(),
+    val lang: Double = 0.toDouble(),
+    val price: Int = 0
 
 
 ) : Parcelable

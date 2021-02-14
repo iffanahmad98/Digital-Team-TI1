@@ -17,9 +17,11 @@ class ArtikelActivity : AppCompatActivity() {
     companion object {
         const val EXTRA_MYDATA = "extra_mydata"
     }
+
     inline fun <reified T : Parcelable> Activity.getParcelableExtra(key: String) = lazy {
         intent.getParcelableExtra<T>(key)
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
@@ -31,7 +33,8 @@ class ArtikelActivity : AppCompatActivity() {
         tv_detail_description.text = myData?.description.toString()
 
         pesan_tiket.setOnClickListener {
-            val intent = Intent(this, BookingTiket::class.java)
+            val intent =
+                Intent(this, BookingTiket::class.java).putExtra(BookingTiket.EXTRA_DATA, myData)
             startActivity(intent)
         }
 
@@ -42,10 +45,12 @@ class ArtikelActivity : AppCompatActivity() {
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { _ ->
             val moveWithObjectIntent = Intent(this, MapsActivity::class.java)
             moveWithObjectIntent.putExtra(MapsActivity.EXTRA_MYDATA, myData)
+            startActivity(moveWithObjectIntent)
         }
 
 
     }
+
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true

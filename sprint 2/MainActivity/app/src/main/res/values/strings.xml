@@ -3,10 +3,18 @@
     <!-- TODO: Remove or change this placeholder text -->
 
     <string-array name="data_name">
-        <item>Lebih Kenal Wisata Baturadden</item>
-        <item>Melihat Air Terjun Bertingkat</item>
-        <item>Mencoba Berenang Di Tengah Sawah</item>
-        <item>Akhir Pekan Di Wisata Pagubugan</item>
+        <item>Wisata Baturadden</item>
+        <item>Curug 7 Bidadari</item>
+        <item>Wisata Pagubugan</item>
+        <item>Bukit Sianco</item>
+
+
+    </string-array>
+    <string-array name="data_price">
+        <item>10000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>12000</item>
 
 
     </string-array>
