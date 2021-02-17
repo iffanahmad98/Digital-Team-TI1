@@ -29,7 +29,7 @@ class BookingTiket : AppCompatActivity() {
         var totalPay = 0;
         myData?.price?.let {
             price = it
-            hargaTiket.text = "Harga Toket : ${it}"
+            hargaTiket.text = "Harga Tiket : ${it}"
         }
 
         btnBooking.setOnClickListener {
